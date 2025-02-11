@@ -1,9 +1,7 @@
-import { useState } from "react";
-
+import ReadBarcode from "./readBarcode";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <div className="oll">
@@ -17,6 +15,7 @@ function App() {
         <button>バーコード読み込み</button>
         <button>書籍一覧</button>
       </div>
+      <ReadBarcode />
       <img className="icon" src="src/sys.PNG"></img>
     </div>
   );

@@ -17,7 +17,9 @@ function App() {
         <button>バーコード読み込み</button>
         <button>書籍一覧</button>
       </div>
-      <img className="icon" src="src/sys.PNG"></img>
+      <div className="iconOll">
+        <img className="icon" src="src/sys.PNG"></img>
+      </div>
     </div>
   );
 }

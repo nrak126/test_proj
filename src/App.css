@@ -34,4 +34,9 @@ button:active{
 }
 .icon{
   width: 200px;
+  margin: 6px;
+ 
+}
+.iconOll{
+  text-align: right;
 }
